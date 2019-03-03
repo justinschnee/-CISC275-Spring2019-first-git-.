@@ -5,3 +5,6 @@
  3 Dogs, , an Arraylist of dogs, and a comparator
 
 3. Can you spot the comparator constructor call? Where is the class definition for the comparator?
+
+The comparator constructor call is the Collections.sort() call (new Comparator<Animal>()). 
+The class definition is whatever is after the collection.sort so the body of the collection.sort.
